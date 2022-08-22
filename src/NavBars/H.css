@@ -1,0 +1,29 @@
+.about{
+    background: #252d4a;
+    height: 100vh;
+}
+.details{
+    margin-left: 8%;
+    margin-top: 16%;
+    line-height: 45px;
+}
+ p{
+    color: #fff;
+    font-size:20px;
+
+}
+h1{
+    color: rgba(13, 216, 47, 0.5);
+    font-size:25px;
+}
+
+span{
+    color: rgba(214, 211, 9, 0.5);
+    font-size:20px;
+}
+.cv{
+    background: #555;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}

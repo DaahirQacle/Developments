@@ -1,0 +1,47 @@
+.Signin{
+    position: absolute ;
+    top:50% ;
+    left:50% ;
+    transform: translate(-50%,-50%) ;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border-radius:12px;
+}
+.Signin h1{
+    font-weight:bolder;
+    font-size: 20px;
+    margin:14px;
+    padding:8px;
+}
+.Signin input[type="text"],input[type="password"]{
+    margin-bottom: 40px;
+    padding:8px;
+    width:100%;
+    background-color:white;
+    color:black;
+    border-radius:6px;
+    outline: none;
+  
+}
+.Signin {
+    padding:5px;
+    width:30%;
+    background-color: #252d4a;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius:6px;
+   
+   
+
+}
+.Signin form{
+    border: 2px solid #066d7a;
+    border-radius:12px;
+    padding:8px;
+}
+
+.Signin button{
+    justify-content: center;
+    color:white;
+}

@@ -1,0 +1,72 @@
+.navigations{
+    display: flex;
+    background: #252d4a;
+    padding:16px;
+    justify-content: space-around;
+  
+ }
+.navigations a{
+    text-decoration:none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+}
+.active{
+    color:gold;
+    font-weight: bold;
+}
+.logo h1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+}
+.btn button{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+    border-radius: 50%;
+    background-color: aqua;
+    width: 64px;
+    /* border:4px solid gold; */
+}
+.social-work{
+    padding:26px;
+    background: #252d4a;
+    height:100vh;
+    color:white;
+  
+}
+.about{
+    background: #252d4a;
+    height:100vh;
+}
+.details{
+    margin-left: 8%;
+    margin-top: 16%;
+    line-height: 45px;
+    position: fixed;
+}
+ p{
+    color: #fff;
+    font-size:20px;
+
+}
+h1{
+    color: rgba(13, 216, 47, 0.5);
+    font-size:25px;
+}
+
+span{
+    color: rgba(214, 211, 9, 0.5);
+    font-size:20px;
+}
+.cv{
+    background: #555;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
