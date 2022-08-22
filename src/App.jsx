@@ -1,14 +1,11 @@
 import { useState ,createContext}  from 'react'
 import reactLogo from './assets/react.svg'
-import { Course } from './Components/Course'
 import Pages from './NavBars/Pages'
 import Navigations from './NavBars/Navigations'
 import { Login } from './LoginForm/Login'
-import { Welcome } from './LoginForm/Welcome'
 import { CreatePost } from './LoginForm/CreatePost'
 import { Post } from './LoginForm/Post'
-import { Sart } from './Test/Sart'
-import { Hubin } from './Test/Hubin'
+
 import { Signin } from './WeekTwoProject/Signin'
 import { Wel } from './WeekTwoProject/Wel'
 export const PostContext = createContext({});
@@ -22,11 +19,11 @@ function App() {
     { name:'C196' , pass:2222},
     { name:'C194' , pass:333} , 
   ]
-  for(let i = 0; i<secret.length;i++){
-    if(signin!=secret[i].name){
+
+    if(signin!=secret[0].name){
       return <Signin setSingin={setSingin} signin ={signin}/>
     }
-  }
+
  
 return (
 <userIdentification.Provider value={{signin , setSingin}}>

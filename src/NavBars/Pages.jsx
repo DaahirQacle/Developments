@@ -1,11 +1,8 @@
 import React from 'react'
 import {Routes , Route} from 'react-router-dom'
-import { Salaan } from '../Test/Salaan'
-import { Sart } from '../Test/Sart'
 import Quiz from '../WeekTwoProject/Quiz'
 import About from './About'
 import Contact from './Contact'
-import Help from './Help'
 import Home from './Home'
 function Pages() {
   return (
