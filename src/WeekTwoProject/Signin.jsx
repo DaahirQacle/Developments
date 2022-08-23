@@ -9,8 +9,6 @@ import {userIdentification}  from '../App'
     e.preventDefault();
     setName(name)
     setSingin(name)
-  
-  
   }
   return (
     <div className="Signin">

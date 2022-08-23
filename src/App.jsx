@@ -10,21 +10,16 @@ import { Signin } from './WeekTwoProject/Signin'
 import { Wel } from './WeekTwoProject/Wel'
 export const PostContext = createContext({});
 export const userIdentification = createContext({});
-
 function App() {
   const[signin , setSingin] = useState('')
   const[pass , setPass] = useState('')
-  let secret = [
+  const  secret = [
     { name:'C192' , pass:111},
     { name:'C196' , pass:2222},
     { name:'C194' , pass:333} , 
   ]
-
-    if(signin!=secret[0].name){
-      return <Signin setSingin={setSingin} signin ={signin}/>
-    }
-
- 
+ const tepm =  secret.filter((item ,index)=>item.name==signin)
+if(tepm.length<=0) return <Signin signin={signin} setSingin={setSingin}/>
 return (
 <userIdentification.Provider value={{signin , setSingin}}>
 <div className="App">
